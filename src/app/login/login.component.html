@@ -1,0 +1,148 @@
+<div class="main">
+  <nav class="navbar fixed-top">
+    <div class="logo">
+      <h2>Stomach Klinic</h2>
+    </div>
+    <div class="section">
+      <a href="./menu">Menu</a>
+      <a href="#">Event</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+  
+</div>
+<!-- 
+  <h2 class="menu-title"> 
+    <a href="#">Our Menu </a>
+  </h2> -->
+
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <h2>Enter Your Details</h2>
+    <form class="d-flex" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="searchText"
+        (input)="filterItems()"
+      />
+      <ul>
+        <li *ngFor="let item of filteredItems">
+          {{ item.name }} - {{ item.email }}
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav> -->
+<!-- 
+<div class="container">
+  <div>
+    <label for="text"
+      >FullName:
+      <input
+        type="text"
+        name="fullname"
+        id="text"
+        placeholder="Enter Name"
+        [(ngModel)]="userdetails.fullname"
+    /></label>
+  </div>
+  <br />
+  <div>
+    <label for="number">
+      Phone Number:<input
+        type="number"
+        name="phonenumber"
+        id="number"
+        placeholder="Enter Phone Number"
+        [(ngModel)]="userdetails.phonenumber"
+    /></label>
+  </div>
+  <br />
+  <a href="./UserProfile">
+    <button type="submit" (click)="addItem()">Submit</button></a
+  >
+
+  <div class="table">
+    <table border="2">
+      <thead>
+        <tr>
+          <td>FullName</td>
+          <td>Phone Number</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let itm of items">
+          <td>
+            {{ itm.fullname }}
+          </td>
+
+          <td>
+            {{ itm.phonenumber }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+  </div>
+
+  <p>
+    {{ userdetails.fullname }}
+    <br />
+    {{ userdetails.phonenumber }}
+  </p>
+</div>
+</div> -->
+
+<!-- <div class="main-image">
+  <div class="image1">
+    <div class="detail1">
+      Welcome to our world of delectable meals and exotic drinks. We hope to
+      satisfy you with our <br />
+      delicious and affordable meals served under a great ambience.
+
+      <p class="book">
+        <a href="#">
+          <button class="book-table" type="submit">Book Table</button>
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="image2">
+    <div class="detail2">
+      Healthy and Delicious food to <br />make every occasion special
+    </div>
+    <div class="detail3">
+      Food is an important part of any celebration in all nations <br />
+      of the world, regardless of culture or religion.
+    </div>
+  </div>
+  <div class="image3">
+    <div class="photo1">Here are some of our local Dishes</div>
+  </div>
+</div> -->
+
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0px;
+    padding: 0px;
+    
+  "
+>
+ <app-imageslider 
+ class="slider"
+ [slides]="slides"
+ [indicatorVisible]="true"
+ [animationSpeed]="200"
+ [autoPlaySpeed]="1000"
+ [autoPlay]="true"
+ ></app-imageslider>
+
+</div>
