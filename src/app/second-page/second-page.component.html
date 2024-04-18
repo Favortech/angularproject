@@ -1,0 +1,29 @@
+<div class="container-fluid text-center">
+  <h1>{{ confirm }}</h1>
+</div>
+
+<div class="container-fluid-2 text-center paddingBodyText">
+  <div *ngFor="let item of pushedData">
+    <h2>Here is your booking information:</h2>
+    <h3>Name: {{ name }}</h3>
+      <h3>Location: {{ city }}</h3>
+      <h3>Phone Number: {{ phonenumber }}</h3>
+      <h3>Date: {{ date }}</h3>
+      <h3>Time: {{ time }}</h3>
+      <h3>Number Of People: {{ noOfpeople }}</h3>
+
+    <!-- Display other properties as needed -->
+  </div>
+
+  <div class="container-fluid buttonDifferentiator">
+    <!--because path is blank and path for redirect to landing and landing path blank, takes you back home-->
+
+    <a
+      class="btn btn-primary text-uppercase font-weight-lighter btn-outline-light"
+      href="./menu"
+      >Back Home</a
+    >
+  </div>
+
+  <!--<a class="btn btn-primary text-uppercase font-weight-lighter btn-outline-light" routerLink = "../reservations" role = "button">NEW RESERVATION</a>-->
+</div>

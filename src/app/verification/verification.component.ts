@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './verification.component.css'
 })
 export class VerificationComponent {
-
 }

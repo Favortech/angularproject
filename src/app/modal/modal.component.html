@@ -1,0 +1,50 @@
+
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-backdrop="static"
+  tabindex="-1"
+  id="staticBackdrop"
+  aria-labelledby="staticBackdropLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="staticBackdropLabel">
+      Booking Information Review
+    </h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <hr />
+  <div class="offcanvas-body" *ngFor="let user of users">
+
+    
+    <div class="detail">Name:  {{ user.name }} </div>
+    <div class="detail">Phone Number: {{ user.phoneNumber }} </div>
+    <div class="detail">Time:  {{ user.time }}</div>
+    <div class="detail">Date: {{ user.date }} </div>
+    <div class="detail">Location: {{ user.location}}</div>
+    <div class="detail">No Of People: {{ user.NoOfPeople }}</div>
+ 
+    <button type="submit">Confirm</button>
+  </div>
+  </div>
+
+    <!-- <div><div> 
+         -  -  -  - 
+     </div></div>
+  </div>
+</div> -->
+
+
+
+
+
+
+<!-- (click)="$event.preventDefault()"
+  @for (item of event; track $index) {
+  {{item.name}} 
+  {{item.phonenumber}}
+}  -->

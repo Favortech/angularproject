@@ -1,0 +1,38 @@
+.submit{
+    text-align: center;
+    position: relative;
+    height:fit-content;
+    width:fit-content;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+h5{
+    text-align: center;
+}
+
+.offcanvas-title {
+    text-shadow: none;
+    font-size: 30px;
+  }
+  
+  hr {
+    height: 5px;
+    margin: 0%;
+  }
+  
+  .offcanvas-body {
+    padding: 0px;
+    text-align: start;
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: none;
+    font-weight: 500;
+  }
+  .detail {
+    padding-top: 20px;
+  }

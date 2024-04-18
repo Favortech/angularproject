@@ -1,0 +1,20 @@
+.footer-copyright {
+    background-color:orange;
+}
+
+.container-fluid {
+    background-color: orange;
+}
+
+* {
+    color: aliceblue;
+}
+
+.padding-ten {
+    padding: 10px;
+}
+
+.margin-top
+{
+    margin-top: -10px;
+}

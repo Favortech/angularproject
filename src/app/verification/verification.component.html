@@ -1,15 +1,40 @@
 <div class="mainpass">
-    <div class="input">
-      
-      <label class="name" for=""
-        ><h2>Enter Verification Code</h2>
-        <input class="code" type="number">
-        <input class="code" type="number">
-        <input class="code" type="number">
-        <input class="code" type="number">
-        
-    </label>
-</div>
-       <a href="./dashboard"> <input class="reset" type="button" value="Send"></a>
-</div>
+  <div class="input">
+    <div class="container name" for="">
+      <h2>Enter Verification Code</h2>
+      <input
+        class="code"
+        type="text"
+        maxlength="1"
+        tabindex="1"
+        oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+      />
+      <input
+        class="code"
+        type="text"
+        maxlength="1"
+        tabindex="2"
+        oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+      />
+      <input
+        class="code"
+        type="text"
+        maxlength="1"
+        tabindex="3"
+        oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+      />
+      <input
+        class="code"
+        type="text "
+        maxlength="1"
+        tabindex="4"
+        oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+      />
+    </div>
     
+  </div>
+  <a href="./reset"> <input class="reset" type="button" value="Send" /></a>
+  
+</div>
+
+

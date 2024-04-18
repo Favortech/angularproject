@@ -18,43 +18,103 @@
     padding: 30%;
     font-size: 400%;
    } */
-
-.logo{
-    text-align: left;
-    font-size: 150%;
-    margin-top: 0%;
-    padding-top: 0%;
+/* .carousel-indicators{
+    position: relative;
+    bottom: 0px;
     color: black;
- }
+}
+.button{
+    height: 30px;
+}
 
+.image{
+    display: block;
+    size: 100%;
+}
 
- a{
-    text-decoration: none;
-    color: white;
-    text-align: right;
+.logo {
+  text-align: left;
+  font-size: 120%;
+}
+.logo-name {
+  padding-left: 20px;
+  padding-top: 0%;
+  margin: 0%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    position: relative;
-  }
-  
-  h2{
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-    .section {
-    display: flex;
-    
-    
-  }
-  
-  .section a {
-  margin-right: 100px;
- 
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
+
+.section a {
+  margin-left: 50px;
+  padding-right: 10px;
+}
+
+.carousel-caption{
+
+    padding-top: 50px;
+}
+.m{
+    border-color: black;
+}
+
+
+
+/*.center{
+    display: flex;
+    justify-content: center;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #title{
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: bold; 
+    font-size:50px;
+   
+
+  }
+  .title{
+    text-align:center;
+    text-decoration: underline;
+
+  } 
+
+
+.photo{
+  width: 100%;
+  display: block;
+  height: 600px;
+}
+
+/* d-md-block */
+.carousel-caption{
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+  color: black;
+}
+
+
 
 .link{
     text-decoration: none;
@@ -122,16 +182,15 @@ a{
   color: black;
 }
 
-
-
-
-
- /* 
+ 
  .container{
-  margin: 15%;
+  margin-top: 10%;
   text-align: center;
 }
 
+
+
+/*  
  .head  {
     text-align: left;
  }

@@ -1,8 +1,19 @@
 .main {
+  
   background-image: url("../images/register.jpg");
   background-size: cover;
   border-radius: 0%;
   background-repeat: no-repeat;
+    border: 2px solid;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+   color: white;
+    margin-top: 3%;
+    border-radius: 40px;
+    margin-top: 10%;
+margin-bottom: 5%;
   position: relative;
   height: 100%;
   margin: 0%;
@@ -10,46 +21,27 @@
   margin-bottom: 0%;
 }
 
-.logo {
-  text-align: left;
-  font-size: 120%;
-}
-h2 {
-  padding-left: 20px;
-  padding-top: 10px;
-  margin: 0%;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 100%;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-}
-
-.section a {
-  margin-left: 50px;
-  padding-right: 10px;
-}
 
 .container {
   padding-left: 30%;
   padding-right: 30%;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100%;
   margin: 0%;
+  
+  margin-top: 70px;
   background-size: cover;
 }
 .box {
   background-color: orange;
-  height: 95%;
-  width: 90%;
+    border: 2px solid;
+    height:fit-content;
+    width: 400px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+   color: white;
+    margin-top: 3%;
   text-align: center;
   border: 1px solid black;
   border-radius: 20px;
@@ -70,8 +62,8 @@ form {
   padding: 0px;
 }
 .input {
-  height: 30px;
-  width: 65%;
+  height: 40px;
+  width: 100%;
   border-radius: 20px;
   margin-top: 0px;
   padding: 0px;
@@ -81,13 +73,14 @@ form {
 }
 .label {
   padding: 0%;
-  width: 150px;
+  width:fit-content;
   margin: 0px;
 }
 .sub-label {
   padding: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
   margin: 0px;
+  
 }
 
 h3{

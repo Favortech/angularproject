@@ -10,16 +10,6 @@
   padding: 0%;
 }
 
-.logo {
-  text-align: left;
-  font-size: 120%;
-}
-h2 {
-  padding-left: 20px;
-  padding-top: 0%;
-  margin: 0%;
-  color: white;
-}
 
 a {
   text-decoration: none;
@@ -27,19 +17,17 @@ a {
   font-size: 100%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-}
-
-.section a {
-  margin-left: 50px;
-  padding-right: 10px;
-}
-
 .log-name {
-  padding-top: 50px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+
+.sign-in-box { 
+  width: 300px;
+ height: 100px;
+ border-radius: 20px;
+ text-align: center;
 }
 .sign-in {
   border-radius: 40px;
@@ -47,7 +35,7 @@ nav {
   background-color: black;
   color: white;
   text-align: center;
-  height: 40px;
+  height: 50px;
   width: 100%;
   display: block;
   padding: 10px;
@@ -55,20 +43,10 @@ nav {
 
 }
 
-
-.sign-in-box { 
-   width: 300px;
-  height: 100px;
-  border-radius: 20px;
-  position: relative;
-  left: 35%;
-  text-align: center;
-}
-
 .container2 {
   background-color: orange;
   height: 100%;
-  margin-top: 0%;
+  margin: 0%;
   padding-top: 0%;
 }
 
@@ -79,10 +57,6 @@ h1 {
   color: white;
 }
 
-.login-box {
-  display: block;
-  padding-top: 1em;
-}
 
 .log {
   display: block;
@@ -100,14 +74,15 @@ h1 {
 
 .test {
   width: 300px;
-  height: fit-content;
+  height:max-content;
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+  margin: 0px;
   border-radius: 20px;
   position: relative;
-  left: 35%;
+  left: 40%;
   text-align: center;
+    display: block;
+    padding-top: 1em;
 }
 
 h5 {
@@ -134,4 +109,5 @@ h5 {
 
 h4 {
   color: white;
+  padding-top: 10px;
 }

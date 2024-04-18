@@ -1,0 +1,136 @@
+/* .main{
+    height: 200px;
+}
+
+.container-fluid
+{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2.5px rgb(55,215,210);
+} 
+
+.container-fluid-2
+{
+    background-color: rgb(23, 112, 110);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: absolute;
+}
+
+.description
+{
+   text-transform: uppercase;
+   background-position: absolute;
+}
+
+/* 
+  margin to align locations button
+
+.margin-top
+{
+    margin: 1px;
+}
+.paddingX2
+{
+ padding: 45vh;
+}
+
+.container-fluid-hours
+{
+    text-transform: uppercase;
+    font-weight: lighter;
+    position: absolute;
+    background-position: absolute;
+}
+
+.extraThings 
+{
+    background-color: rgb(23, 112, 110);
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    padding: 15vh;
+}
+
+.btn-primary
+{
+    font-weight: lighter;
+}
+
+.btn-primary:hover 
+{
+    border: 2px solid turquoise;
+}
+
+.form-row
+{
+    position: absolute;
+    margin-top: 25px;
+}
+
+ */
+
+
+.form-row {
+  position: absolute;
+  margin-top: 25px;
+  display: inline-flexbox;
+}
+
+#form {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.submit {
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: fit-content;
+  font-size: 20px;
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 20px;
+  left: 40%;
+}
+
+.description {
+  text-transform: uppercase;
+  background-position: absolute;
+}
+
+.reservation-title {
+  margin: 0%;
+  background-image: url(../images/reservationimage.jpg);
+  height: 300px;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  color: White;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+.reservation-form {
+  background-color: rgb(23, 112, 110);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+  width: 35vw;
+  min-height: 10vh;
+  background-position: absolute;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid orange;
+  padding-top: 10px;
+  margin-top: 20px;
+  height: 400px;
+  background-color: orange;
+  position: relative;
+  left: 25%;
+}
+

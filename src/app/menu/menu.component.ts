@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ImagesliderComponent } from "../imageslider/imageslider.component";
+import { FormsModule } from '@angular/forms';
 //import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @Component({
@@ -8,35 +9,28 @@ import { ImagesliderComponent } from "../imageslider/imageslider.component";
     // SlickCarouselModule, 
     templateUrl: './menu.component.html',
     styleUrl: './menu.component.css',
-    imports: [ImagesliderComponent,]
+    imports: [ImagesliderComponent,FormsModule]
 })
 export class MenuComponent {
-    
-        slides: any[] = [
-          {
-            
-            url: ('./media/bgimage1.jpg'),
-            title: 'first slide',
-            
-      
-          },
-          {
-            url: './media/bgimage2.jpg',
-            title: 'second slide',
-            
-            
-          },
-          {
-            url: '../media/loginphoto.jpg',
-            title: 'third slide',
-            
-          },
-          {
-            url: './media/bgimage5.jpg',
-            title: 'fourth slide',
-           
-          },
-        ];
+  
+menuName = 'Order Now'
+
+
+
+onButtonGroupClick($event: { target: any; srcElement: any; }){
+    let clickedElement = $event.target || $event.srcElement;
+
+    if( clickedElement.nodeName === "BUTTON" ) {
+
+      let isCertainButtonAlreadyActive = clickedElement.parentElement.querySelector(".active");
+      // if a Button already has Class: .active
+      if( isCertainButtonAlreadyActive ) {
+        isCertainButtonAlreadyActive.classList.remove("active");
+      }
+
+      clickedElement.className += " active";
+    }
+  }
       
         // caption: [
         //     description: 'Welcome to our world of delectable meals and exotic drinks. We hope to satisfy you with our delicious and affordable meals served under a great ambience.'
